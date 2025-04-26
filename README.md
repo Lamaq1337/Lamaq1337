@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <span style="color: #b0b0b0; font-size: 18px; font-family: 'Courier New', monospace;">
+  <span style="color: #b0b0b0; font-size: 8px; font-family: 'Courier New', monospace;">
     __/\\\_________________/\\\\\\\\\_____/\\\\____________/\\\\_____/\\\\\\\\\___________/\\\____________/\\\_____/\\\\\\\\\\______/\\\\\\\\\\___/\\\\\\\\\\\\\\\_        
       _\/\\\_______________/\\\\\\\\\\\\\__\/\\\\\\________/\\\\\\___/\\\\\\\\\\\\\______/\\\\/\\\\_____/\\\\\\\___/\\\///////\\\___/\\\///////\\\_\/////////////\\\_       
         _\/\\\______________/\\\/////////\\\_\/\\\//\\\____/\\\//\\\__/\\\/////////\\\___/\\\//\////\\\__\/////\\\__\///______/\\\___\///______/\\\_____________/\\\/__      
@@ -62,13 +62,64 @@ console.log(me.toString());
 
 🛠️ Технологии
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express,prisma,postgres,mysql,js,html,css,docker,linux,git,github&theme=dark" alt="Технологический стек"/> </p> <div align="center"> Категория | Технологии --- | --- Языки | JavaScript, SQL Фреймворки | Next.js, Express Базы данных | PostgreSQL, MySQL, Prisma Инфраструктура | Docker, Linux, Git Прочее | REST API, WebSockets </div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 30px 0;">
+
+  <div style="background-color: #0d1117; border: 1px solid #333; border-radius: 8px; width: 200px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); font-family: 'Arial', sans-serif; color: #b0b0b0; transition: transform 0.2s, background-color 0.2s;">
+    <h3 style="margin-top: 0; color: #8A2BE2; font-size: 18px; text-align: center;">Языки</h3>
+    <ul style="list-style: none; padding: 0; margin: 10px 0 0;">
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">JavaScript</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">TypeScript</li>
+    </ul>
+  </div>
+
+
+  <div style="background-color: #0d1117; border: 1px solid #333; border-radius: 8px; width: 200px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); font-family: 'Arial', sans-serif; color: #b0b0b0; transition: transform 0.2s, background-color 0.2s;">
+    <h3 style="margin-top: 0; color: #8A2BE2; font-size: 18px; text-align: center;">Фреймворки</h3>
+    <ul style="list-style: none; padding: 0; margin: 10px 0 0;">
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Next.js</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Express</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">React</li>
+    </ul>
+  </div>
+
+
+  <div style="background-color: #0d1117; border: 1px solid #333; border-radius: 8px; width: 200px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); font-family: 'Arial', sans-serif; color: #b0b0b0; transition: transform 0.2s, background-color 0.2s;">
+    <h3 style="margin-top: 0; color: #8A2BE2; font-size: 18px; text-align: center;">Базы данных</h3>
+    <ul style="list-style: none; padding: 0; margin: 10px 0 0;">
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">PostgreSQL</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">MongoDB</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Prisma</li>
+    </ul>
+  </div>
+
+
+  <div style="background-color: #0d1117; border: 1px solid #333; border-radius: 8px; width: 200px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); font-family: 'Arial', sans-serif; color: #b0b0b0; transition: transform 0.2s, background-color 0.2s;">
+    <h3 style="margin-top: 0; color: #8A2BE2; font-size: 18px; text-align: center;">Инфраструктура</h3>
+    <ul style="list-style: none; padding: 0; margin: 10px 0 0;">
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Docker</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Linux</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">Git</li>
+    </ul>
+  </div>
+
+  
+  <div style="background-color: #0d1117; border: 1px solid #333; border-radius: 8px; width: 200px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); font-family: 'Arial', sans-serif; color: #b0b0b0; transition: transform 0.2s, background-color 0.2s;">
+    <h3 style="margin-top: 0; color: #8A2BE2; font-size: 18px; text-align: center;">Инструменты</h3>
+    <ul style="list-style: none; padding: 0; margin: 10px 0 0;">
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">REST API</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">WebSockets</li>
+      <li style="margin: 5px 0; padding-left: 16px; position: relative;">JWT</li>
+    </ul>
+  </div>
+</div>
+
+
 📈 Статистика GitHub
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamaq1337&layout=compact&hide_border=true&title_color=FFAE00&text_color=b0b0b0&bg_color=0d1117" alt="Популярные языки"/> <img src="https://github-readme-stats.vercel.app/api?username=Lamaq1337&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=FFAE00&text_color=b0b0b0&bg_color=0d1117" alt="Статистика GitHub"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lamaq1337&theme=dark&hide_border=true&stroke=FFAE00&background=0d1117&ring=FFAE00&fire=FFAE00&currStreakNum=b0b0b0&sideNums=b0b0b0&currStreakLabel=b0b0b0&sideLabels=b0b0b0&dates=b0b0b0" alt="Серия GitHub"/> </p> <p align="center"> <img src="https://i.pinimg.com/736x/f3/1e/68/f31e68afcfbdb045ba66ee380df5bca9.jpg" alt="dark aesthetic image" width="100%"/> </p>
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamaq1337&layout=compact&hide_border=true&title_color=FFAE00&text_color=b0b0b0&bg_color=0d1117" alt="Популярные языки"/> <img src="https://github-readme-stats.vercel.app/api?username=Lamaq1337&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=FFAE00&text_color=b0b0b0&bg_color=0d1117" alt="Статистика GitHub"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lamaq1337&theme=dark&hide_border=true&stroke=FFAE00&background=0d1117&ring=FFAE00&fire=FFAE00&currStreakNum=b0b0b0&sideNums=b0b0b0&currStreakLabel=b0b0b0&sideLabels=b0b0b0&dates=b0b0b0" alt="Серия GitHub"/> </p> <p align="center"></p>
 🏆 Достижения
 
 <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Lamaq1337&theme=onedark&column=4&margin-w=15&margin-h=15&no-bg=true&no-frame=true" alt="Трофеи"/> </p>
 🌌 Контакты
 
-<p align="center"> <a href="https://t.me/your_telegram" target="_blank"> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&color=1a1a1a&labelColor=FFAE00" alt="Telegram"/> </a> <a href="https://github.com/Lamaq1337" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&color=1a1a1a&labelColor=FFAE00" alt="GitHub"/> </a> <a href="mailto:your-email@example.com" target="_blank"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=1a1a1a&labelColor=FFAE00" alt="Email"/> </a> </p>
+<p align="center"> <a href="https://t.me/Lamaq0" target="_blank"> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&color=1a1a1a&labelColor=FFAE00" alt="Telegram"/> </a> <a href="https://github.com/Lamaq1337" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&color=1a1a1a&labelColor=FFAE00" alt="GitHub"/> </a> </p>
